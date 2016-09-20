@@ -1045,6 +1045,55 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="-1.2" y1="1.5" x2="-1.2" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="1.3" y1="1.5" x2="1.3" y2="-1.5" width="0.127" layer="21"/>
 </package>
+<package name="SOT95P280X145-5N">
+<smd name="1" x="-1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="3" x="-1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="5" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<wire x1="-0.6096" y1="-1.5494" x2="0.6096" y2="-1.5494" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="-0.3302" x2="0.8636" y2="0.3302" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21" curve="-180"/>
+<wire x1="-0.8636" y1="-1.5494" x2="0.8636" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-1.5494" x2="0.8636" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-1.1938" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-0.7112" x2="0.8636" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.5494" x2="-0.8636" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="1.5494" x2="-0.8636" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="1.1938" x2="-0.8636" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="0.254" x2="-0.8636" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="-0.254" x2="-0.8636" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="1.1938" x2="-1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.7112" x2="-0.8636" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="0.254" x2="-1.4986" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.254" x2="-0.8636" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="-1.5494" x2="-0.8636" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="-1.1938" x2="-0.8636" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-1.1938" x2="-0.8636" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-1.1938" x2="1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-0.7112" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="1.5494" x2="0.8636" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="1.1938" x2="0.8636" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="0.7112" x2="1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="1.1938" x2="0.8636" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="51" curve="-180"/>
+<text x="-0.7498" y="1.8796" size="0.9" layer="25" font="vector" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.9116" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-2" y1="2" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1" y2="2" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS5430">
@@ -1677,29 +1726,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pin name="GND@3" x="22.86" y="-10.16" length="middle" rot="R180"/>
 <pin name="GND@4" x="22.86" y="-12.7" length="middle" rot="R180"/>
 <pin name="EP" x="22.86" y="-15.24" length="middle" rot="R180"/>
-</symbol>
-<symbol name="OPUB-S">
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0" x2="0" y2="3.81" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="0" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.81" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.81" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="4.445" size="0.8128" layer="93" rot="R90">V+</text>
-<text x="1.27" y="-5.715" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in"/>
-<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="middle" direction="in"/>
-<pin name="OUT" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="SD" x="2.54" y="7.62" visible="pad" length="middle" function="dot" rot="R270"/>
-<text x="1.778" y="1.016" size="0.762" layer="94">SD</text>
 </symbol>
 <symbol name="ZD-U">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -2550,26 +2576,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC2050CS8" prefix="N">
-<gates>
-<gate name="G$1" symbol="OPUB-S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC8-N_MC">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="SD" pad="1"/>
-<connect gate="G$1" pin="V+" pad="7"/>
-<connect gate="G$1" pin="V-" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SMAJXXCA" prefix="V">
 <gates>
 <gate name="G$1" symbol="ZD-U" x="2.54" y="0"/>
@@ -2647,6 +2653,25 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <connect gate="G$1" pin="C1" pad="3"/>
 <connect gate="G$1" pin="C2" pad="4"/>
 <connect gate="G$1" pin="C3" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC2050CS5" prefix="N">
+<gates>
+<gate name="G$1" symbol="OPUB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9057,8 +9082,8 @@ Source: e_os_all.pdf</description>
 <part name="P-12" library="EKE" deviceset="V-" device=""/>
 <part name="P-13" library="EKE" deviceset="V-" device=""/>
 <part name="P+6" library="EKE" deviceset="V+" device=""/>
-<part name="R5" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="C6" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="R5" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="C6" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="P-14" library="EKE" deviceset="V-" device=""/>
 <part name="D5" library="omat_ic_2" deviceset="SI8661-IS1" device=""/>
 <part name="P+7" library="EKE" deviceset="V+" device=""/>
@@ -9113,8 +9138,8 @@ Source: e_os_all.pdf</description>
 <part name="GND18" library="EKE" deviceset="GND" device=""/>
 <part name="+3V5" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND19" library="EKE" deviceset="GND" device=""/>
-<part name="C10" library="omat_ic_2" deviceset="CAP" device="0603"/>
-<part name="C11" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C10" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
+<part name="C11" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND20" library="EKE" deviceset="GND" device=""/>
 <part name="GND21" library="EKE" deviceset="GND" device=""/>
 <part name="L2" library="omat_ic_2" deviceset="IND" device="0603"/>
@@ -9124,37 +9149,37 @@ Source: e_os_all.pdf</description>
 <part name="GND22" library="EKE" deviceset="GND" device=""/>
 <part name="GND23" library="EKE" deviceset="GND" device=""/>
 <part name="+3V8" library="EKE" deviceset="+3V3" device=""/>
-<part name="R17" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="C12" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="R17" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="C12" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND24" library="EKE" deviceset="GND" device=""/>
-<part name="C13" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C13" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND25" library="EKE" deviceset="GND" device=""/>
 <part name="+3V9" library="EKE" deviceset="+3V3" device=""/>
-<part name="C14" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C14" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND26" library="EKE" deviceset="GND" device=""/>
 <part name="+3V10" library="EKE" deviceset="+3V3" device=""/>
-<part name="C15" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C15" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND27" library="EKE" deviceset="GND" device=""/>
 <part name="+3V11" library="EKE" deviceset="+3V3" device=""/>
-<part name="C16" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C16" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND28" library="EKE" deviceset="GND" device=""/>
 <part name="+3V12" library="EKE" deviceset="+3V3" device=""/>
-<part name="C17" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C17" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND29" library="EKE" deviceset="GND" device=""/>
 <part name="+3V13" library="EKE" deviceset="+3V3" device=""/>
-<part name="C18" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C18" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND30" library="EKE" deviceset="GND" device=""/>
 <part name="+3V14" library="EKE" deviceset="+3V3" device=""/>
-<part name="C19" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C19" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND31" library="EKE" deviceset="GND" device=""/>
 <part name="+3V15" library="EKE" deviceset="+3V3" device=""/>
-<part name="C20" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C20" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND32" library="EKE" deviceset="GND" device=""/>
 <part name="+3V16" library="EKE" deviceset="+3V3" device=""/>
-<part name="C21" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C21" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND33" library="EKE" deviceset="GND" device=""/>
 <part name="+3V17" library="EKE" deviceset="+3V3" device=""/>
-<part name="C22" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C22" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND34" library="EKE" deviceset="GND" device=""/>
 <part name="+3V18" library="EKE" deviceset="+3V3" device=""/>
 <part name="G1" library="omat_ic_2" deviceset="XTAL_3225_SMD" device="" value="25MHz"/>
@@ -9205,37 +9230,37 @@ Source: e_os_all.pdf</description>
 <part name="+3V27" library="EKE" deviceset="+3V3" device=""/>
 <part name="+3V28" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND50" library="EKE" deviceset="GND" device=""/>
-<part name="C26" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C26" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND51" library="EKE" deviceset="GND" device=""/>
 <part name="+3V29" library="EKE" deviceset="+3V3" device=""/>
-<part name="C27" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C27" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND52" library="EKE" deviceset="GND" device=""/>
 <part name="+3V30" library="EKE" deviceset="+3V3" device=""/>
-<part name="C28" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C28" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND53" library="EKE" deviceset="GND" device=""/>
 <part name="+3V31" library="EKE" deviceset="+3V3" device=""/>
-<part name="C29" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C29" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND54" library="EKE" deviceset="GND" device=""/>
 <part name="+3V32" library="EKE" deviceset="+3V3" device=""/>
-<part name="C30" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C30" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND55" library="EKE" deviceset="GND" device=""/>
 <part name="+3V33" library="EKE" deviceset="+3V3" device=""/>
-<part name="C31" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C31" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND56" library="EKE" deviceset="GND" device=""/>
 <part name="+3V34" library="EKE" deviceset="+3V3" device=""/>
-<part name="C32" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C32" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-16" library="EKE" deviceset="V-" device=""/>
 <part name="P+13" library="EKE" deviceset="V+" device=""/>
-<part name="C33" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C33" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-17" library="EKE" deviceset="V-" device=""/>
 <part name="P+15" library="EKE" deviceset="V+" device=""/>
-<part name="C34" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C34" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-18" library="EKE" deviceset="V-" device=""/>
 <part name="P+17" library="EKE" deviceset="V+" device=""/>
-<part name="C35" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C35" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-19" library="EKE" deviceset="V-" device=""/>
 <part name="P+18" library="EKE" deviceset="V+" device=""/>
-<part name="C36" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C36" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-20" library="EKE" deviceset="V-" device=""/>
 <part name="P+19" library="EKE" deviceset="V+" device=""/>
 <part name="C37" library="EKE" deviceset="CPOL-EU" device="CT7343"/>
@@ -9267,8 +9292,8 @@ Source: e_os_all.pdf</description>
 <part name="P-32" library="EKE" deviceset="V-" device=""/>
 <part name="P-33" library="EKE" deviceset="V-" device=""/>
 <part name="P+25" library="EKE" deviceset="V+" device=""/>
-<part name="R32" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="C39" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="R32" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="C39" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="P-34" library="EKE" deviceset="V-" device=""/>
 <part name="D15" library="omat_ic_2" deviceset="SI8661-IS1" device=""/>
 <part name="P+26" library="EKE" deviceset="V+" device=""/>
@@ -9276,19 +9301,19 @@ Source: e_os_all.pdf</description>
 <part name="+3V35" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND57" library="EKE" deviceset="GND" device=""/>
 <part name="FRAME8" library="omat_ic_2" deviceset="DINA3_L" device=""/>
-<part name="C40" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C40" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-36" library="EKE" deviceset="V-" device=""/>
 <part name="P+27" library="EKE" deviceset="V+" device=""/>
-<part name="C41" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C41" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-37" library="EKE" deviceset="V-" device=""/>
 <part name="P+28" library="EKE" deviceset="V+" device=""/>
-<part name="C42" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C42" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-38" library="EKE" deviceset="V-" device=""/>
 <part name="P+29" library="EKE" deviceset="V+" device=""/>
-<part name="C43" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C43" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-39" library="EKE" deviceset="V-" device=""/>
 <part name="P+30" library="EKE" deviceset="V+" device=""/>
-<part name="C44" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C44" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-40" library="EKE" deviceset="V-" device=""/>
 <part name="P+31" library="EKE" deviceset="V+" device=""/>
 <part name="C45" library="EKE" deviceset="CPOL-EU" device="CT7343"/>
@@ -9331,7 +9356,6 @@ Source: e_os_all.pdf</description>
 <part name="+3V41" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND8" library="EKE" deviceset="GND" device=""/>
 <part name="R39" library="omat_ic_2" deviceset="RES" device="1206" value="ERJ-8BWFR010V"/>
-<part name="N2" library="omat_ic_2" deviceset="LTC2050CS8" device=""/>
 <part name="R40" library="omat_ic_2" deviceset="RES" device="0603" value="10"/>
 <part name="R41" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND9" library="EKE" deviceset="GND" device=""/>
@@ -9349,6 +9373,16 @@ Source: e_os_all.pdf</description>
 <part name="V25" library="omat_ic_2" deviceset="ESDAXXSC6" device=""/>
 <part name="P-41" library="EKE" deviceset="V-" device=""/>
 <part name="V16" library="omat_ic_2" deviceset="SMAJXXA" device=""/>
+<part name="R42" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R47" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R48" library="omat_ic_2" deviceset="RES" device="0603" value="100k"/>
+<part name="P-29" library="EKE" deviceset="V-" device=""/>
+<part name="R49" library="omat_ic_2" deviceset="RES" device="0603" value="100k"/>
+<part name="P-42" library="EKE" deviceset="V-" device=""/>
+<part name="C46" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="+3V37" library="EKE" deviceset="+3V3" device=""/>
+<part name="GND62" library="EKE" deviceset="GND" device=""/>
+<part name="N2" library="omat_ic_2" deviceset="LTC2050CS5" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9618,11 +9652,10 @@ Source: e_os_all.pdf</description>
 <instance part="+3V41" gate="G$1" x="106.68" y="88.9"/>
 <instance part="GND8" gate="1" x="134.62" y="139.7"/>
 <instance part="R39" gate="G$1" x="134.62" y="152.4" rot="R90"/>
-<instance part="N2" gate="G$1" x="88.9" y="147.32" rot="MR0"/>
 <instance part="R40" gate="G$1" x="106.68" y="144.78"/>
 <instance part="R41" gate="G$1" x="78.74" y="132.08"/>
 <instance part="GND9" gate="1" x="88.9" y="137.16"/>
-<instance part="+3V36" gate="G$1" x="88.9" y="162.56"/>
+<instance part="+3V36" gate="G$1" x="88.9" y="157.48"/>
 <instance part="V21" gate="G$1" x="142.24" y="208.28" rot="R90"/>
 <instance part="C7" gate="G$1" x="149.86" y="210.82"/>
 <instance part="V23" gate="G$1" x="60.96" y="58.42" rot="R90"/>
@@ -9630,6 +9663,10 @@ Source: e_os_all.pdf</description>
 <instance part="GND58" gate="1" x="63.5" y="40.64"/>
 <instance part="V24" gate="G$1" x="307.34" y="142.24"/>
 <instance part="GND59" gate="1" x="289.56" y="134.62"/>
+<instance part="C46" gate="G$1" x="111.76" y="129.54"/>
+<instance part="+3V37" gate="G$1" x="111.76" y="134.62"/>
+<instance part="GND62" gate="1" x="111.76" y="121.92"/>
+<instance part="N2" gate="G$1" x="86.36" y="147.32" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -9739,10 +9776,6 @@ Source: e_os_all.pdf</description>
 <junction x="134.62" y="144.78"/>
 </segment>
 <segment>
-<pinref part="N2" gate="G$1" pin="V-"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="V23" gate="G$1" pin="A"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
@@ -9759,6 +9792,14 @@ Source: e_os_all.pdf</description>
 <wire x1="292.1" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
 <junction x="289.56" y="139.7"/>
 <pinref part="GND59" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="N2" gate="G$1" pin="V-"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -10129,14 +10170,12 @@ Source: e_os_all.pdf</description>
 <pinref part="+3V41" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="N2" gate="G$1" pin="SD"/>
-<wire x1="86.36" y1="154.94" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
-<wire x1="88.9" y1="157.48" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="N2" gate="G$1" pin="V+"/>
-<wire x1="88.9" y1="157.48" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
-<junction x="88.9" y="157.48"/>
+</segment>
+<segment>
+<pinref part="C46" gate="G$1" pin="1"/>
+<pinref part="+3V37" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VREF25" class="0">
@@ -10258,17 +10297,16 @@ Source: e_os_all.pdf</description>
 <junction x="134.62" y="172.72"/>
 <wire x1="134.62" y1="172.72" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<pinref part="N2" gate="G$1" pin="+IN"/>
 <wire x1="134.62" y1="160.02" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="160.02" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
 <junction x="134.62" y="160.02"/>
+<pinref part="N2" gate="G$1" pin="+IN"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="-IN"/>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="2"/>
@@ -10276,11 +10314,11 @@ Source: e_os_all.pdf</description>
 <wire x1="83.82" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="132.08" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <junction x="99.06" y="144.78"/>
+<pinref part="N2" gate="G$1" pin="-IN"/>
 </segment>
 </net>
 <net name="MOTOR_CURR" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="OUT"/>
 <wire x1="76.2" y1="147.32" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="147.32" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
@@ -10288,6 +10326,7 @@ Source: e_os_all.pdf</description>
 <junction x="66.04" y="147.32"/>
 <wire x1="66.04" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
 <label x="40.64" y="147.32" size="1.778" layer="95"/>
+<pinref part="N2" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 </nets>
@@ -10366,6 +10405,8 @@ Source: e_os_all.pdf</description>
 <instance part="C37" gate="G$1" x="228.6" y="111.76"/>
 <instance part="V14" gate="G$1" x="299.72" y="81.28" rot="R180"/>
 <instance part="P-9" gate="1" x="317.5" y="73.66"/>
+<instance part="R49" gate="G$1" x="185.42" y="86.36" rot="R90"/>
+<instance part="P-42" gate="1" x="185.42" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -10393,8 +10434,12 @@ Source: e_os_all.pdf</description>
 <net name="THROTTLE_1" class="0">
 <segment>
 <pinref part="N4" gate="G$1" pin="VOUTA"/>
-<wire x1="167.64" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="N5" gate="G$1" pin="+IN"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="93.98" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
+<junction x="185.42" y="93.98"/>
 </segment>
 </net>
 <net name="+48V_1" class="0">
@@ -10637,6 +10682,11 @@ Source: e_os_all.pdf</description>
 <wire x1="317.5" y1="78.74" x2="317.5" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="78.74" x2="317.5" y2="78.74" width="0.1524" layer="91"/>
 <junction x="317.5" y="78.74"/>
+</segment>
+<segment>
+<pinref part="R49" gate="G$1" pin="1"/>
+<pinref part="P-42" gate="1" pin="V-"/>
+<wire x1="185.42" y1="81.28" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="REVERSE_1" class="0">
@@ -10888,6 +10938,8 @@ Source: e_os_all.pdf</description>
 <instance part="C45" gate="G$1" x="228.6" y="111.76"/>
 <instance part="V25" gate="G$1" x="299.72" y="81.28" rot="R180"/>
 <instance part="P-41" gate="1" x="317.5" y="73.66"/>
+<instance part="R48" gate="G$1" x="185.42" y="86.36" rot="R90"/>
+<instance part="P-29" gate="1" x="185.42" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -10895,8 +10947,12 @@ Source: e_os_all.pdf</description>
 <net name="THROTTLE_2" class="0">
 <segment>
 <pinref part="N8" gate="G$1" pin="VOUTA"/>
-<wire x1="167.64" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="N9" gate="G$1" pin="+IN"/>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="91.44" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
+<junction x="185.42" y="93.98"/>
 </segment>
 </net>
 <net name="+48V_2" class="0">
@@ -11183,6 +11239,11 @@ Source: e_os_all.pdf</description>
 <wire x1="314.96" y1="78.74" x2="317.5" y2="78.74" width="0.1524" layer="91"/>
 <junction x="317.5" y="78.74"/>
 </segment>
+<segment>
+<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="P-29" gate="1" pin="V-"/>
+<wire x1="185.42" y1="78.74" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SPICSL_2" class="0">
 <segment>
@@ -11421,6 +11482,8 @@ ADC123_in0</text>
 <instance part="GND60" gate="1" x="96.52" y="200.66"/>
 <instance part="GND61" gate="1" x="104.14" y="200.66"/>
 <instance part="P+33" gate="1" x="78.74" y="223.52"/>
+<instance part="R42" gate="G$1" x="152.4" y="157.48"/>
+<instance part="R47" gate="G$1" x="152.4" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -11819,18 +11882,18 @@ ADC123_in0</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="PA13/TMS/SWDIO"/>
-<wire x1="177.8" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="99.06" y="157.48" size="1.778" layer="95"/>
 <pinref part="X5" gate="G$1" pin="2"/>
+<pinref part="R42" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="PA14/TCK/SWCLK"/>
-<wire x1="177.8" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="99.06" y="154.94" size="1.778" layer="95"/>
 <pinref part="X5" gate="G$1" pin="3"/>
+<pinref part="R47" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RESETL" class="0">
@@ -11869,6 +11932,20 @@ ADC123_in0</text>
 <wire x1="157.48" y1="167.64" x2="157.48" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="215.9" x2="104.14" y2="215.9" width="0.1524" layer="91"/>
 <label x="129.54" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R47" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="PA14/TCK/SWCLK"/>
+<wire x1="157.48" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="PA13/TMS/SWDIO"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
