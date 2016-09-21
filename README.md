@@ -25,3 +25,7 @@ Temperature sensor
 Joystick input
 * 2 potentiometers
 * 2 buttons
+
+Speed sensor inputs
+* 2 channels
+* for MLX90217 gear tooth sensor
