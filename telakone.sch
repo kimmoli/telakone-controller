@@ -7520,6 +7520,10 @@ Source: e_os_all.pdf</description>
 <vertex x="-4.75" y="0" curve="43.010397"/>
 </polygon>
 </package>
+<package name="PTH-2.6-5.5SQ">
+<pad name="1" x="0" y="0" drill="2.6" diameter="5.5" shape="square" thermals="no"/>
+<text x="0" y="-3" size="1.4224" layer="21" align="top-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
@@ -7566,6 +7570,12 @@ Source: e_os_all.pdf</description>
 <wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="PTH-SQ">
+<pin name="1" x="-7.62" y="0" length="middle"/>
+<rectangle x1="-5.08" y1="-2.54" x2="0" y2="2.54" layer="94" rot="R90"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="3.556" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9163,6 +9173,21 @@ Source: e_os_all.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PTH" prefix="Y">
+<gates>
+<gate name="G$1" symbol="PTH-SQ" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="2.6-5.5SQ" package="PTH-2.6-5.5SQ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -9546,11 +9571,25 @@ Source: e_os_all.pdf</description>
 <part name="GND74" library="EKE" deviceset="GND" device=""/>
 <part name="V27" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="ESDAXXSC6"/>
 <part name="GND71" library="EKE" deviceset="GND" device=""/>
+<part name="Y1" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
+<part name="Y2" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
+<part name="Y3" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
+<part name="Y4" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
+<part name="C48" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="+3V41" library="EKE" deviceset="+3V3" device=""/>
+<part name="GND72" library="EKE" deviceset="GND" device=""/>
+<part name="C49" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="+3V44" library="EKE" deviceset="+3V3" device=""/>
+<part name="GND75" library="EKE" deviceset="GND" device=""/>
+<part name="C52" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="+3V45" library="EKE" deviceset="+3V3" device=""/>
+<part name="GND76" library="EKE" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>POWER</description>
 <plain>
+<text x="93.98" y="66.04" size="1.778" layer="97">MOUNTING HOLES</text>
 </plain>
 <instances>
 <instance part="N1" gate="G$1" x="187.96" y="170.18"/>
@@ -9582,6 +9621,10 @@ Source: e_os_all.pdf</description>
 <instance part="GND10" gate="1" x="91.44" y="154.94"/>
 <instance part="F1" gate="G$1" x="111.76" y="177.8" rot="MR0"/>
 <instance part="V16" gate="G$1" x="121.92" y="167.64" rot="R90"/>
+<instance part="Y1" gate="G$1" x="106.68" y="55.88"/>
+<instance part="Y2" gate="G$1" x="106.68" y="45.72"/>
+<instance part="Y3" gate="G$1" x="106.68" y="35.56"/>
+<instance part="Y4" gate="G$1" x="106.68" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -10389,6 +10432,15 @@ MAX INPUT 20V</text>
 <instance part="GND74" gate="1" x="246.38" y="86.36"/>
 <instance part="V27" gate="G$1" x="309.88" y="76.2"/>
 <instance part="GND71" gate="1" x="292.1" y="63.5"/>
+<instance part="C48" gate="G$1" x="152.4" y="147.32"/>
+<instance part="+3V41" gate="G$1" x="152.4" y="152.4"/>
+<instance part="GND72" gate="1" x="152.4" y="139.7"/>
+<instance part="C49" gate="G$1" x="213.36" y="40.64"/>
+<instance part="+3V44" gate="G$1" x="213.36" y="45.72"/>
+<instance part="GND75" gate="1" x="213.36" y="33.02"/>
+<instance part="C52" gate="G$1" x="104.14" y="175.26"/>
+<instance part="+3V45" gate="G$1" x="104.14" y="180.34"/>
+<instance part="GND76" gate="1" x="104.14" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -10474,6 +10526,18 @@ MAX INPUT 20V</text>
 <wire x1="294.64" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 <junction x="292.1" y="73.66"/>
 </segment>
+<segment>
+<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C49" gate="G$1" pin="2"/>
+<pinref part="GND75" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C52" gate="G$1" pin="2"/>
+<pinref part="GND76" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -10497,6 +10561,18 @@ MAX INPUT 20V</text>
 <pinref part="+3V40" gate="G$1" pin="+3V3"/>
 <wire x1="198.12" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="66.04" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C48" gate="G$1" pin="1"/>
+<pinref part="+3V41" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C49" gate="G$1" pin="1"/>
+<pinref part="+3V44" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C52" gate="G$1" pin="1"/>
+<pinref part="+3V45" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VREF25" class="0">
