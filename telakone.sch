@@ -9532,6 +9532,9 @@ Source: e_os_all.pdf</description>
 <part name="GND83" library="EKE" deviceset="GND" device=""/>
 <part name="C57" library="omat_ic_2" deviceset="CAP" device="0603"/>
 <part name="GND84" library="EKE" deviceset="GND" device=""/>
+<part name="C58" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
+<part name="GND46" library="EKE" deviceset="GND" device=""/>
+<part name="+3V8" library="EKE" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12034,6 +12037,9 @@ ADC123_in0</text>
 <instance part="GND81" gate="1" x="248.92" y="81.28"/>
 <instance part="GND82" gate="1" x="256.54" y="81.28"/>
 <instance part="+3V7" gate="G$1" x="276.86" y="99.06"/>
+<instance part="C58" gate="G$1" x="345.44" y="167.64"/>
+<instance part="GND46" gate="1" x="345.44" y="160.02"/>
+<instance part="+3V8" gate="G$1" x="345.44" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -12199,6 +12205,10 @@ ADC123_in0</text>
 <pinref part="C54" gate="G$1" pin="2"/>
 <pinref part="GND82" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C58" gate="G$1" pin="2"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCAP2" class="0">
 <segment>
@@ -12339,6 +12349,10 @@ ADC123_in0</text>
 <wire x1="276.86" y1="96.52" x2="276.86" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="93.98" x2="271.78" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C58" gate="G$1" pin="1"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
