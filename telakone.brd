@@ -160,6 +160,7 @@
 <wire x1="90.55" y1="27.3" x2="74.55" y2="27.3" width="2" layer="41"/>
 <wire x1="74.55" y1="27.3" x2="74.55" y2="46.35" width="2" layer="41"/>
 <text x="80.65" y="8.35" size="1.5" layer="21" align="bottom-center">TELAKONE OHJAIN
+V1.00
 KIMMOLI 2016</text>
 <text x="50" y="1" size="1.5" layer="21" align="bottom-center">https://github.com/kimmoli/telakone-controller</text>
 <text x="50.3" y="5.45" size="1.5" layer="21" rot="R90" align="bottom-center">PWR</text>
@@ -2225,7 +2226,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.465" y="8.815" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="51.305" y="8.865" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="dafug" package="DAFUG" value="DAFUG" x="80.55" y="16.05" smashed="yes"/>
+<element name="U$1" library="dafug" package="DAFUG" value="DAFUG" x="80.8" y="18.25" smashed="yes"/>
 <element name="Y5" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="60" y="60"/>
 </elements>
 <signals>

@@ -12063,6 +12063,8 @@ Source: e_os_all.pdf</description>
 <description>POWER</description>
 <plain>
 <text x="93.98" y="66.04" size="1.778" layer="97">MOUNTING HOLES</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="N1" gate="G$1" x="187.96" y="170.18"/>
