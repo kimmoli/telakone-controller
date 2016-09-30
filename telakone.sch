@@ -12057,6 +12057,20 @@ Source: e_os_all.pdf</description>
 <part name="U$1" library="dafug" deviceset="DAFUG" device=""/>
 <part name="Y5" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
 <part name="U$2" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$3" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$4" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$5" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$6" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$7" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$8" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$9" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$10" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$11" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$12" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$13" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$14" library="dafug" deviceset="OSHW" device=""/>
+<part name="U$15" library="dafug" deviceset="DAFUG" device=""/>
+<part name="U$16" library="dafug" deviceset="OSHW" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12289,6 +12303,8 @@ Source: e_os_all.pdf</description>
 <description>OUTPUTS</description>
 <plain>
 <text x="43.18" y="93.98" size="1.778" layer="97">~1.2mA/LSB</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="172.72" y="165.1" rot="MR0"/>
@@ -12358,6 +12374,8 @@ Source: e_os_all.pdf</description>
 <instance part="GND79" gate="1" x="147.32" y="187.96"/>
 <instance part="C53" gate="G$1" x="287.02" y="203.2"/>
 <instance part="GND80" gate="1" x="287.02" y="195.58"/>
+<instance part="U$3" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$4" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -12905,6 +12923,8 @@ Source: e_os_all.pdf</description>
 <text x="210.82" y="111.76" size="1.778" layer="97">THRESHOLD ~6 V
 MAX INPUT 20V</text>
 <text x="284.48" y="144.78" size="1.778" layer="97" rot="R90">SPEED SENSORS</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -12968,6 +12988,8 @@ MAX INPUT 20V</text>
 <instance part="P+13" gate="1" x="266.7" y="185.42"/>
 <instance part="GND78" gate="1" x="266.7" y="172.72"/>
 <instance part="V28" gate="G$1" x="309.88" y="127"/>
+<instance part="U$5" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$6" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -13431,6 +13453,8 @@ MAX INPUT 20V</text>
 <text x="195.58" y="127" size="1.778" layer="97">~14.74 mV/LSB</text>
 <text x="147.32" y="76.2" size="1.778" layer="97">GAIN=2
 ~1.22 mV/LSB</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="N4" gate="G$1" x="149.86" y="96.52"/>
@@ -13491,6 +13515,8 @@ MAX INPUT 20V</text>
 <instance part="P-42" gate="1" x="185.42" y="76.2"/>
 <instance part="C56" gate="G$1" x="25.4" y="170.18" rot="MR0"/>
 <instance part="GND83" gate="1" x="25.4" y="162.56"/>
+<instance part="U$7" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$8" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -13962,6 +13988,8 @@ MAX INPUT 20V</text>
 <text x="195.58" y="127" size="1.778" layer="97">~14.74 mV/LSB</text>
 <text x="147.32" y="76.2" size="1.778" layer="97">GAIN=2
 ~1.22 mV/LSB</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="N8" gate="G$1" x="149.86" y="96.52"/>
@@ -14022,6 +14050,8 @@ MAX INPUT 20V</text>
 <instance part="P-29" gate="1" x="185.42" y="76.2"/>
 <instance part="C57" gate="G$1" x="25.4" y="170.18" rot="MR0"/>
 <instance part="GND84" gate="1" x="25.4" y="162.56"/>
+<instance part="U$9" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$10" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -14486,6 +14516,8 @@ MAX INPUT 20V</text>
 <text x="71.12" y="203.2" size="1.778" layer="97">MAX 20V
 ~4.97mV/LSB
 ADC123_in0</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -14571,6 +14603,8 @@ ADC123_in0</text>
 <instance part="C58" gate="G$1" x="345.44" y="167.64"/>
 <instance part="GND46" gate="1" x="345.44" y="160.02"/>
 <instance part="+3V8" gate="G$1" x="345.44" y="172.72"/>
+<instance part="U$11" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$12" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -15085,6 +15119,8 @@ TIM9_CH2</text>
 <text x="200.66" y="160.02" size="1.778" layer="97">USART2</text>
 <text x="86.36" y="185.42" size="1.778" layer="97">USART1</text>
 <text x="236.22" y="144.78" size="1.778" layer="97" rot="R90">USART3</text>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -15125,6 +15161,8 @@ TIM9_CH2</text>
 <instance part="R25" gate="G$1" x="60.96" y="139.7" rot="R90"/>
 <instance part="GND88" gate="1" x="60.96" y="132.08"/>
 <instance part="+3V23" gate="G$1" x="60.96" y="160.02"/>
+<instance part="U$13" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$14" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -15637,6 +15675,8 @@ TIM9_CH2</text>
 <sheet>
 <description>WIFI</description>
 <plain>
+<text x="375.92" y="7.62" size="3.048" layer="97">V1.00</text>
+<text x="292.1" y="7.62" size="3.048" layer="97">TELAKONE OHJAIN</text>
 </plain>
 <instances>
 <instance part="A1" gate="G$1" x="203.2" y="121.92"/>
@@ -15662,6 +15702,8 @@ TIM9_CH2</text>
 <instance part="C31" gate="G$1" x="129.54" y="165.1"/>
 <instance part="GND56" gate="1" x="129.54" y="157.48"/>
 <instance part="+3V34" gate="G$1" x="129.54" y="170.18"/>
+<instance part="U$15" gate="G$1" x="292.1" y="30.48"/>
+<instance part="U$16" gate="G$1" x="320.04" y="40.64"/>
 </instances>
 <busses>
 </busses>
