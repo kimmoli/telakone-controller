@@ -11655,12 +11655,12 @@ Source: e_os_all.pdf</description>
 <part name="N1" library="omat_ic_2" deviceset="TPS5430" device="DDA"/>
 <part name="L1" library="omat_ic_2" deviceset="VLP8040" device="-47U"/>
 <part name="V13" library="omat_ic_2" deviceset="SK34A" device="" value="SK34A"/>
-<part name="R1" library="omat_ic_2" deviceset="RES" device="0603" value="10k0 0603"/>
-<part name="R2" library="omat_ic_2" deviceset="RES" device="0603" value="5k90 0603"/>
-<part name="C1" library="EKE" deviceset="CPOL-EU" device="CT7343"/>
+<part name="R1" library="omat_ic_2" deviceset="RES" device="0603" value="10k0"/>
+<part name="R2" library="omat_ic_2" deviceset="RES" device="0603" value="5k90"/>
+<part name="C1" library="EKE" deviceset="CPOL-EU" device="CT7343" value="220u 16V D"/>
 <part name="C2" library="omat_ic_2" deviceset="CAP" device="0805" value="2u2 50V 0805"/>
 <part name="C3" library="omat_ic_2" deviceset="CAP" device="0805" value="2u2 50V 0805"/>
-<part name="C4" library="omat_ic_2" deviceset="CAP" device="0603" value="10n 0603"/>
+<part name="C4" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="GND1" library="EKE" deviceset="GND" device=""/>
 <part name="GND2" library="EKE" deviceset="GND" device=""/>
 <part name="GND3" library="EKE" deviceset="GND" device=""/>
@@ -11684,9 +11684,9 @@ Source: e_os_all.pdf</description>
 <part name="N6" library="omat_ic_2" deviceset="MCP3201/SN" device=""/>
 <part name="P-8" library="EKE" deviceset="V-" device=""/>
 <part name="P+4" library="EKE" deviceset="V+" device=""/>
-<part name="C5" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C5" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="R3" library="omat_ic_2" deviceset="RES" device="0603" value="825"/>
-<part name="R4" library="omat_ic_2" deviceset="RES" device="1206" value="19k1"/>
+<part name="R4" library="omat_ic_2" deviceset="RES" device="1206" value="19k1 1206"/>
 <part name="P-10" library="EKE" deviceset="V-" device=""/>
 <part name="P-11" library="EKE" deviceset="V-" device=""/>
 <part name="N7" library="omat_ic_2" deviceset="MCP1501/SN" device=""/>
@@ -11694,7 +11694,7 @@ Source: e_os_all.pdf</description>
 <part name="P-12" library="EKE" deviceset="V-" device=""/>
 <part name="P-13" library="EKE" deviceset="V-" device=""/>
 <part name="P+6" library="EKE" deviceset="V+" device=""/>
-<part name="R5" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="R5" library="omat_ic_2" deviceset="RES" device="0603" value="1k00"/>
 <part name="C6" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="P-14" library="EKE" deviceset="V-" device=""/>
 <part name="D5" library="omat_ic_2" deviceset="SI8661-IS1" device=""/>
@@ -11718,23 +11718,23 @@ Source: e_os_all.pdf</description>
 <part name="GND14" library="EKE" deviceset="GND" device=""/>
 <part name="V2" library="omat_ic_2" deviceset="AO4803A" device=""/>
 <part name="V4" library="omat_ic_2" deviceset="AO4803A" device=""/>
-<part name="R12" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R8" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R9" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R10" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R12" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R8" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R9" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R10" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="V8" library="omat_ic_2" deviceset="SK34A" device="" value="SK34A"/>
 <part name="V10" library="omat_ic_2" deviceset="SK34A" device="" value="SK34A"/>
 <part name="V11" library="omat_ic_2" deviceset="SK34A" device="" value="SK34A"/>
 <part name="V12" library="omat_ic_2" deviceset="SK34A" device="" value="SK34A"/>
-<part name="R11" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R13" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R14" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R15" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R11" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R13" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R14" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R15" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="X3" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
 <part name="GND15" library="EKE" deviceset="GND" device=""/>
 <part name="A1" library="omat_ic_2" deviceset="CC3100MOD" device=""/>
 <part name="D10" library="omat_ic_2" deviceset="RT9818C-29GV" device=""/>
-<part name="R16" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R16" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="+3V3" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND16" library="EKE" deviceset="GND" device=""/>
 <part name="+3V4" library="EKE" deviceset="+3V3" device=""/>
@@ -11744,8 +11744,8 @@ Source: e_os_all.pdf</description>
 <part name="FRAME4" library="omat_ic_2" deviceset="DINA3_L" device=""/>
 <part name="FRAME6" library="omat_ic_2" deviceset="DINA3_L" device=""/>
 <part name="D1" library="omat_ic_2" deviceset="STM32F407ZG" device=""/>
-<part name="C8" library="omat_ic_2" deviceset="CAP" device="0603"/>
-<part name="C9" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C8" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
+<part name="C9" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND17" library="EKE" deviceset="GND" device=""/>
 <part name="GND18" library="EKE" deviceset="GND" device=""/>
 <part name="+3V5" library="EKE" deviceset="+3V3" device=""/>
@@ -11759,7 +11759,7 @@ Source: e_os_all.pdf</description>
 <part name="N3" library="omat_ic_2" deviceset="MCP1501/SN" device=""/>
 <part name="GND22" library="EKE" deviceset="GND" device=""/>
 <part name="GND23" library="EKE" deviceset="GND" device=""/>
-<part name="R17" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="R17" library="omat_ic_2" deviceset="RES" device="0603" value="1k00"/>
 <part name="C12" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="GND24" library="EKE" deviceset="GND" device=""/>
 <part name="C13" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
@@ -11793,13 +11793,13 @@ Source: e_os_all.pdf</description>
 <part name="GND34" library="EKE" deviceset="GND" device=""/>
 <part name="+3V18" library="EKE" deviceset="+3V3" device=""/>
 <part name="G1" library="omat_ic_2" deviceset="XTAL_3225_SMD" device="" value="25MHz"/>
-<part name="C23" library="omat_ic_2" deviceset="CAP" device="0603"/>
-<part name="C24" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C23" library="omat_ic_2" deviceset="CAP" device="0603" value="22p"/>
+<part name="C24" library="omat_ic_2" deviceset="CAP" device="0603" value="22p"/>
 <part name="GND35" library="EKE" deviceset="GND" device=""/>
 <part name="GND36" library="EKE" deviceset="GND" device=""/>
 <part name="+3V19" library="EKE" deviceset="+3V3" device=""/>
-<part name="R19" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R20" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R19" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R20" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="GND37" library="EKE" deviceset="GND" device=""/>
 <part name="GND38" library="EKE" deviceset="GND" device=""/>
 <part name="GND39" library="EKE" deviceset="GND" device=""/>
@@ -11810,11 +11810,11 @@ Source: e_os_all.pdf</description>
 <part name="FRAME7" library="omat_ic_2" deviceset="DINA3_L" device=""/>
 <part name="+3V22" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND41" library="EKE" deviceset="GND" device=""/>
-<part name="R21" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R21" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="GND42" library="EKE" deviceset="GND" device=""/>
-<part name="R22" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R22" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="GND43" library="EKE" deviceset="GND" device=""/>
-<part name="R23" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R23" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="GND44" library="EKE" deviceset="GND" device=""/>
 <part name="C25" library="omat_ic_2" deviceset="CAP" device="0603" value="10p"/>
 <part name="X7" library="omat_ic_2" deviceset="U.FL-R-SMT-1" device=""/>
@@ -11862,7 +11862,7 @@ Source: e_os_all.pdf</description>
 <part name="C36" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-20" library="EKE" deviceset="V-" device=""/>
 <part name="P+19" library="EKE" deviceset="V+" device=""/>
-<part name="C37" library="EKE" deviceset="CPOL-EU" device="CT7343"/>
+<part name="C37" library="EKE" deviceset="CPOL-EU" device="CT7343" value="220u 16V D"/>
 <part name="N8" library="omat_ic_2" deviceset="MCP4921/SN" device=""/>
 <part name="N9" library="omat_ic_2" deviceset="TS921IDT" device=""/>
 <part name="X8" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
@@ -11881,9 +11881,9 @@ Source: e_os_all.pdf</description>
 <part name="N10" library="omat_ic_2" deviceset="MCP3201/SN" device=""/>
 <part name="P-28" library="EKE" deviceset="V-" device=""/>
 <part name="P+23" library="EKE" deviceset="V+" device=""/>
-<part name="C38" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C38" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="R30" library="omat_ic_2" deviceset="RES" device="0603" value="825"/>
-<part name="R31" library="omat_ic_2" deviceset="RES" device="1206" value="19k1"/>
+<part name="R31" library="omat_ic_2" deviceset="RES" device="1206" value="19k1 1206"/>
 <part name="P-30" library="EKE" deviceset="V-" device=""/>
 <part name="P-31" library="EKE" deviceset="V-" device=""/>
 <part name="N11" library="omat_ic_2" deviceset="MCP1501/SN" device=""/>
@@ -11891,7 +11891,7 @@ Source: e_os_all.pdf</description>
 <part name="P-32" library="EKE" deviceset="V-" device=""/>
 <part name="P-33" library="EKE" deviceset="V-" device=""/>
 <part name="P+25" library="EKE" deviceset="V+" device=""/>
-<part name="R32" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="R32" library="omat_ic_2" deviceset="RES" device="0603" value="1k00"/>
 <part name="C39" library="omat_ic_2" deviceset="CAP" device="0603" value="2u2"/>
 <part name="P-34" library="EKE" deviceset="V-" device=""/>
 <part name="D15" library="omat_ic_2" deviceset="SI8661-IS1" device=""/>
@@ -11912,26 +11912,26 @@ Source: e_os_all.pdf</description>
 <part name="C44" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="P-40" library="EKE" deviceset="V-" device=""/>
 <part name="P+31" library="EKE" deviceset="V+" device=""/>
-<part name="C45" library="EKE" deviceset="CPOL-EU" device="CT7343"/>
-<part name="R35" library="omat_ic_2" deviceset="RES" device="1206" value="5k90"/>
+<part name="C45" library="EKE" deviceset="CPOL-EU" device="CT7343" value="220u 16V D"/>
+<part name="R35" library="omat_ic_2" deviceset="RES" device="1206" value="5k90 1206"/>
 <part name="R36" library="omat_ic_2" deviceset="RES" device="0603" value="825"/>
-<part name="C47" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C47" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="GND60" library="EKE" deviceset="GND" device=""/>
 <part name="GND61" library="EKE" deviceset="GND" device=""/>
 <part name="P+33" library="EKE" deviceset="+12V" device=""/>
 <part name="P+8" library="EKE" deviceset="+12V" device=""/>
 <part name="V18" library="omat_ic_2" deviceset="2N7002K" device=""/>
 <part name="GND6" library="EKE" deviceset="GND" device=""/>
-<part name="R6" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R7" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R6" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R7" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="P+32" library="EKE" deviceset="+12V" device=""/>
 <part name="V20" library="omat_ic_2" deviceset="2N7002K" device=""/>
 <part name="GND7" library="EKE" deviceset="GND" device=""/>
-<part name="R33" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R34" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R33" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R34" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="V22" library="omat_ic_2" deviceset="AO4886" device=""/>
-<part name="R37" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R38" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R37" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
+<part name="R38" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="X6" library="omat_ic_2" deviceset="TE_RUUVILIITIN2" device=""/>
 <part name="GND10" library="EKE" deviceset="GND" device=""/>
 <part name="V19" library="omat_ic_2" deviceset="AO4803A" device=""/>
@@ -11941,23 +11941,23 @@ Source: e_os_all.pdf</description>
 <part name="R41" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND9" library="EKE" deviceset="GND" device=""/>
 <part name="+3V36" library="EKE" deviceset="+3V3" device=""/>
-<part name="V21" library="omat_ic_2" deviceset="SMAJXXCA" device=""/>
-<part name="C7" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="V21" library="omat_ic_2" deviceset="SMAJXXCA" device="" value="SMAJ20CA"/>
+<part name="C7" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="F1" library="omat_ic_2" deviceset="KEYSTONE-3549-2" device=""/>
 <part name="V24" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="ESDA19SC6"/>
 <part name="GND59" library="EKE" deviceset="GND" device=""/>
-<part name="V14" library="omat_ic_2" deviceset="ESDAXXSC6" device=""/>
+<part name="V14" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="WURTH 82402304"/>
 <part name="P-9" library="EKE" deviceset="V-" device=""/>
-<part name="V25" library="omat_ic_2" deviceset="ESDAXXSC6" device=""/>
+<part name="V25" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="WURTH 82402304"/>
 <part name="P-41" library="EKE" deviceset="V-" device=""/>
-<part name="V16" library="omat_ic_2" deviceset="SMAJXXA" device=""/>
-<part name="R42" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R47" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="V16" library="omat_ic_2" deviceset="SMAJXXA" device="" value="SMAJ20A"/>
+<part name="R42" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
+<part name="R47" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="R48" library="omat_ic_2" deviceset="RES" device="0603" value="100k"/>
 <part name="P-29" library="EKE" deviceset="V-" device=""/>
 <part name="R49" library="omat_ic_2" deviceset="RES" device="0603" value="100k"/>
 <part name="P-42" library="EKE" deviceset="V-" device=""/>
-<part name="C46" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C46" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="+3V37" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND62" library="EKE" deviceset="GND" device=""/>
 <part name="N2" library="omat_ic_2" deviceset="LTC2050CS5" device=""/>
@@ -11966,10 +11966,10 @@ Source: e_os_all.pdf</description>
 <part name="GND67" library="EKE" deviceset="GND" device=""/>
 <part name="+3V38" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND68" library="EKE" deviceset="GND" device=""/>
-<part name="R50" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R51" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="C50" library="omat_ic_2" deviceset="CAP" device="0603"/>
-<part name="C51" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="R50" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
+<part name="R51" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
+<part name="C50" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
+<part name="C51" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="GND69" library="EKE" deviceset="GND" device=""/>
 <part name="GND70" library="EKE" deviceset="GND" device=""/>
 <part name="X10" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
@@ -11981,8 +11981,8 @@ Source: e_os_all.pdf</description>
 <part name="X11" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
 <part name="GND40" library="EKE" deviceset="GND" device=""/>
 <part name="P+11" library="EKE" deviceset="+12V" device=""/>
-<part name="R43" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
-<part name="R44" library="omat_ic_2" deviceset="RES" device="0603" value="1k"/>
+<part name="R43" library="omat_ic_2" deviceset="RES" device="0603" value="1k00"/>
+<part name="R44" library="omat_ic_2" deviceset="RES" device="0603" value="1k00"/>
 <part name="P+34" library="EKE" deviceset="+12V" device=""/>
 <part name="P+35" library="EKE" deviceset="+12V" device=""/>
 <part name="N12" library="omat_ic_2" deviceset="AZV3002S" device=""/>
@@ -11998,35 +11998,35 @@ Source: e_os_all.pdf</description>
 <part name="GND63" library="EKE" deviceset="GND" device=""/>
 <part name="R46" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="D2" library="omat_ic_2" deviceset="MAX3088_SA" device="" value="MAX3430_SA"/>
-<part name="R58" library="omat_ic_2" deviceset="RES" device="1206" value="121"/>
+<part name="R58" library="omat_ic_2" deviceset="RES" device="1206" value="121 1206"/>
 <part name="GND66" library="EKE" deviceset="GND" device=""/>
 <part name="+3V40" library="EKE" deviceset="+3V3" device=""/>
-<part name="R59" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R59" library="omat_ic_2" deviceset="RES" device="0603" value="2k00"/>
 <part name="GND73" library="EKE" deviceset="GND" device=""/>
 <part name="V23" library="omat_ic_2" deviceset="SM712" device=""/>
 <part name="GND74" library="EKE" deviceset="GND" device=""/>
-<part name="V27" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="ESDAXXSC6"/>
+<part name="V27" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="ESDA19SC6"/>
 <part name="GND71" library="EKE" deviceset="GND" device=""/>
 <part name="Y1" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
 <part name="Y2" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
 <part name="Y3" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
 <part name="Y4" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
-<part name="C48" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C48" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="+3V41" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND72" library="EKE" deviceset="GND" device=""/>
-<part name="C49" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C49" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="+3V44" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND75" library="EKE" deviceset="GND" device=""/>
-<part name="C52" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C52" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="+3V45" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND76" library="EKE" deviceset="GND" device=""/>
 <part name="GND77" library="EKE" deviceset="GND" device=""/>
-<part name="C32" library="omat_ic_2" deviceset="CAP" device="0805"/>
+<part name="C32" library="omat_ic_2" deviceset="CAP" device="0805" value="2u2 50V 0805"/>
 <part name="P+13" library="EKE" deviceset="+12V" device=""/>
 <part name="GND78" library="EKE" deviceset="GND" device=""/>
-<part name="C40" library="omat_ic_2" deviceset="CAP" device="0805"/>
+<part name="C40" library="omat_ic_2" deviceset="CAP" device="0805" value="2u2 50V 0805"/>
 <part name="GND79" library="EKE" deviceset="GND" device=""/>
-<part name="C53" library="omat_ic_2" deviceset="CAP" device="0805"/>
+<part name="C53" library="omat_ic_2" deviceset="CAP" device="0805" value="2u2 50V 0805"/>
 <part name="GND80" library="EKE" deviceset="GND" device=""/>
 <part name="V28" library="omat_ic_2" deviceset="ESDAXXSC6" device="" value="WURTH 82402304"/>
 <part name="L3" library="omat_ic_2" deviceset="IND" device="0603"/>
@@ -12035,9 +12035,9 @@ Source: e_os_all.pdf</description>
 <part name="GND81" library="EKE" deviceset="GND" device=""/>
 <part name="GND82" library="EKE" deviceset="GND" device=""/>
 <part name="+3V7" library="EKE" deviceset="+3V3" device=""/>
-<part name="C56" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C56" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND83" library="EKE" deviceset="GND" device=""/>
-<part name="C57" library="omat_ic_2" deviceset="CAP" device="0603"/>
+<part name="C57" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND84" library="EKE" deviceset="GND" device=""/>
 <part name="C58" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND46" library="EKE" deviceset="GND" device=""/>
@@ -12046,12 +12046,12 @@ Source: e_os_all.pdf</description>
 <part name="GND85" library="EKE" deviceset="GND" device=""/>
 <part name="H1" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="RED"/>
 <part name="H2" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
-<part name="R18" library="omat_ic_2" deviceset="RES" device="0603"/>
-<part name="R24" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R18" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
+<part name="R24" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND86" library="EKE" deviceset="GND" device=""/>
 <part name="GND87" library="EKE" deviceset="GND" device=""/>
 <part name="H3" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
-<part name="R25" library="omat_ic_2" deviceset="RES" device="0603"/>
+<part name="R25" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND88" library="EKE" deviceset="GND" device=""/>
 <part name="+3V23" library="EKE" deviceset="+3V3" device=""/>
 <part name="U$1" library="dafug" deviceset="DAFUG" device=""/>
@@ -12932,13 +12932,13 @@ MAX INPUT 20V</text>
 <instance part="N13" gate="G$1" x="129.54" y="182.88"/>
 <instance part="GND67" gate="1" x="127" y="172.72"/>
 <instance part="+3V38" gate="G$1" x="127" y="193.04"/>
-<instance part="GND68" gate="1" x="251.46" y="195.58"/>
+<instance part="GND68" gate="1" x="251.46" y="193.04"/>
 <instance part="R50" gate="G$1" x="226.06" y="215.9"/>
 <instance part="R51" gate="G$1" x="226.06" y="208.28"/>
-<instance part="C50" gate="G$1" x="218.44" y="203.2"/>
-<instance part="C51" gate="G$1" x="208.28" y="203.2"/>
-<instance part="GND69" gate="1" x="208.28" y="195.58"/>
-<instance part="GND70" gate="1" x="218.44" y="195.58"/>
+<instance part="C50" gate="G$1" x="218.44" y="200.66"/>
+<instance part="C51" gate="G$1" x="203.2" y="200.66"/>
+<instance part="GND69" gate="1" x="203.2" y="193.04"/>
+<instance part="GND70" gate="1" x="218.44" y="193.04"/>
 <instance part="X10" gate="G$1" x="274.32" y="210.82" rot="MR0"/>
 <instance part="R52" gate="G$1" x="231.14" y="231.14" rot="R90"/>
 <instance part="R53" gate="G$1" x="238.76" y="231.14" rot="R90"/>
@@ -13002,7 +13002,7 @@ MAX INPUT 20V</text>
 <segment>
 <wire x1="266.7" y1="213.36" x2="251.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="213.36" x2="251.46" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="205.74" x2="251.46" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="205.74" x2="251.46" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="205.74" x2="251.46" y2="205.74" width="0.1524" layer="91"/>
 <junction x="251.46" y="205.74"/>
 <pinref part="GND68" gate="1" pin="GND"/>
@@ -13205,7 +13205,7 @@ MAX INPUT 20V</text>
 <wire x1="220.98" y1="208.28" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="208.28" x2="119.38" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="205.74" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="203.2" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
 <junction x="218.44" y="208.28"/>
 <label x="121.92" y="208.28" size="1.778" layer="95"/>
 </segment>
@@ -13213,11 +13213,11 @@ MAX INPUT 20V</text>
 <net name="POT1" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="215.9" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="215.9" x2="203.2" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="205.74" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
-<junction x="208.28" y="215.9"/>
+<wire x1="203.2" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="203.2" x2="203.2" y2="215.9" width="0.1524" layer="91"/>
+<junction x="203.2" y="215.9"/>
 <label x="121.92" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -13508,7 +13508,7 @@ MAX INPUT 20V</text>
 <instance part="C36" gate="G$1" x="226.06" y="187.96"/>
 <instance part="P-20" gate="1" x="226.06" y="177.8"/>
 <instance part="P+19" gate="1" x="226.06" y="195.58"/>
-<instance part="C37" gate="G$1" x="228.6" y="111.76"/>
+<instance part="C37" gate="G$1" x="228.6" y="111.76" rot="MR0"/>
 <instance part="V14" gate="G$1" x="299.72" y="81.28" rot="R180"/>
 <instance part="P-9" gate="1" x="317.5" y="73.66"/>
 <instance part="R49" gate="G$1" x="185.42" y="86.36" rot="R90"/>
@@ -14043,7 +14043,7 @@ MAX INPUT 20V</text>
 <instance part="C44" gate="G$1" x="226.06" y="187.96"/>
 <instance part="P-40" gate="1" x="226.06" y="177.8"/>
 <instance part="P+31" gate="1" x="226.06" y="195.58"/>
-<instance part="C45" gate="G$1" x="228.6" y="111.76"/>
+<instance part="C45" gate="G$1" x="228.6" y="111.76" rot="MR0"/>
 <instance part="V25" gate="G$1" x="299.72" y="81.28" rot="R180"/>
 <instance part="P-41" gate="1" x="317.5" y="73.66"/>
 <instance part="R48" gate="G$1" x="185.42" y="86.36" rot="R90"/>
